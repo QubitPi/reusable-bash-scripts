@@ -44,6 +44,12 @@ The following examples assumes the input image is "input.png" and output image w
   curl -sL https://raw.githubusercontent.com/QubitPi/reusable-bash-scripts/refs/heads/master/add-padding.sh | bash -s -- input.png output.png 1920x1080 #00CC00
   ```
 
+### Keeps Executing A Command Util it Succeeds
+
+```console
+curl -sL https://raw.githubusercontent.com/QubitPi/reusable-bash-scripts/refs/heads/master/loop.sh | bash -s -- <command>
+```
+
 License
 -------
 
