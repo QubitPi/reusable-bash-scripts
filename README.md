@@ -37,11 +37,11 @@ The following examples assumes the input image is "input.png" and output image w
   curl -sL https://raw.githubusercontent.com/QubitPi/reusable-bash-scripts/refs/heads/master/add-padding.sh | bash -s -- input.png output.png 1920x1080
   ```
   
-- Add paddings, whose color is #00CC00, to make an image with dimension 1920x1080:
+- Add paddings, whose color is white, to make an image with dimension 1920x1080:
 
 
   ```console
-  curl -sL https://raw.githubusercontent.com/QubitPi/reusable-bash-scripts/refs/heads/master/add-padding.sh | bash -s -- input.png output.png 1920x1080 #00CC00
+  curl -sL https://raw.githubusercontent.com/QubitPi/reusable-bash-scripts/refs/heads/master/add-padding.sh | bash -s -- input.png output.png 1920x1080 white
   ```
 
 ### Keeps Executing A Command Util it Succeeds
